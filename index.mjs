@@ -15,7 +15,7 @@ const boxenOptions = {
 const intro1 = chalk.bold(
   "Hello there! We're Mpya Digital. Our mantra is Work is Joy, and it is important for us that all our employees find their work enjoyable!\n\n"
 );
-const intro2 = chalk.underline("Find us the internet:\n\n");
+const intro2 = chalk.underline("Find us on the internet:\n\n");
 const intro = intro1 + intro2;
 
 const links = [
@@ -40,15 +40,15 @@ const links = [
 const linkList = links.map((link) => `${link.name} ${link.url}`).join("\n");
 
 const joinUs1 = chalk.bold(
-  "\n\nWe are always on the lookout for new courageous and curious software developers.\n\n"
+  "\n\nWe are always on the lookout for new amazing and curious software developers\n\n"
 );
-const joinUs2 = chalk.underline("Why don't you joyn us?\n\n");
-const joinUs = joinUs1 + joinUs2;
+const joinUs2 = chalk.underline("Why don't you joyn us?");
+const joinUs = joinUs1 + joinUs2 + " :)\n\n";
 
 const joinLinks = [
   {
     name: chalk.hex("#fff").bgHex("#00B2AA")("Email"),
-    url: "       hello@mpyadigital.com",
+    url: "       emil.lindau@mpyadigital.com",
   },
   {
     name: chalk.hex("#fff").bgHex("#00B2AA")("Phone"),
