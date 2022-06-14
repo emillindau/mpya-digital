@@ -1,0 +1,30 @@
+{
+  "name": "mpya-digital",
+  "version": "1.0.0",
+  "description": "Mpya Digital Business Card",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node ./index.mjs"
+  },
+  "bin": {
+    "mpya-digital": "./index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emillindau/mpya-digital.git"
+  },
+  "keywords": [
+    "business",
+    "mpya",
+    "mpya-digital",
+    "hire",
+    "consultants",
+    "developers"
+  ],
+  "author": "emiljsl",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1"
+  }
+}
